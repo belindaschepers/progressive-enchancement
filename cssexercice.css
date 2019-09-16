@@ -23,8 +23,10 @@ body
    margin: 110px;
    background: -webkit-linear-gradient(90deg, rgb(237, 84, 22), rgb(100, 22, 3));
    background: linear-gradient(90deg, rgb(237, 84, 22), rgb(100, 22, 3));
-   background-image: url(https://cdn.images.express.co.uk/img/dynamic/151/590x/mars-alignment-996474.jpg?r=1532984150038);
-   background-repeat:no-repeat; }
+   background-image: url(https://archinect.imgix.net/uploads/5p/5ppn2zaegtbysre7.jpg?fit=crop&auto=compress%2Cformat&w=1500);
+   background-repeat:no-repeat;
+   background-position: bottom right;
+   background-size: cover; }
 
 ol
   {font-family: 'Times New Roman', Times, serif;
