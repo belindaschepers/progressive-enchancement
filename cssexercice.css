@@ -59,3 +59,13 @@ q
 h2 {
     background-color: yellow;
 }
+
+.bien {
+    text-transform: capitalize;
+    color: green;
+}
+
+.mal {
+    text-transform: capitalize;
+    color: red;
+}
