@@ -22,7 +22,10 @@ body
   {font-weight: 90%;
    margin: 110px;
    background: -webkit-linear-gradient(90deg, rgb(237, 84, 22), rgb(100, 22, 3));
-   background: linear-gradient(90deg, rgb(237, 84, 22), rgb(100, 22, 3)); }
+   background: linear-gradient(90deg, rgb(237, 84, 22), rgb(100, 22, 3));
+   background-image: url(https://cdn.images.express.co.uk/img/dynamic/151/590x/mars-alignment-996474.jpg?r=1532984150038);
+   background-repeat:no-repeat; }
+
 ol
   {font-family: 'Times New Roman', Times, serif;
     font-size: medium;
@@ -32,7 +35,7 @@ ol
 q
   {margin: 210px;
    font-size: 160%;
-   background-color: #e0e0d1;
+   background-color: lightgray;
    border-left: 3px solid #b32d00;
    padding-left: 30px;
    }
