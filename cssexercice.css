@@ -69,3 +69,11 @@ h2 {
     text-transform: capitalize;
     color: red;
 }
+
+.greycase {
+    background-color: grey;
+}
+
+.whitecase {
+    background-color: white;
+}
