@@ -29,4 +29,8 @@ ol
     color: #00001a;}
 
 q
-  {margin: 250px;}
+  {margin: 210px;
+   font-size: 160%;
+   background-color: #e0e0d1;
+   border: left 3px;
+   border-color: #800;}
