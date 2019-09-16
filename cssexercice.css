@@ -5,7 +5,7 @@ p
  color: #00001a;
  }
 
- a {
+a {
     text-decoration: underline;
     color: #a00;
   }
@@ -18,6 +18,15 @@ p
     background: #800;
   }
 
-  body
+body
   {font-weight: 90%;
-   margin: center; }
+   margin: 110px; }
+
+ol
+  {font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    line-height: normal;
+    color: #00001a;}
+
+q
+  {margin: 250px;}
