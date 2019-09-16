@@ -1,4 +1,23 @@
 p 
-{font-family: Arial, Helvetica, sans-serif;
+{font-family: 'Times New Roman', Times, serif;
  font-size: medium;
+ line-height: normal;
+ color: #00001a;
  }
+
+ a {
+    text-decoration: underline;
+    color: #a00;
+  }
+  a:visited {
+    color: #844;
+  }
+  a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+    background: #800;
+  }
+
+  body
+  {font-weight: 90%;
+   margin: center; }
