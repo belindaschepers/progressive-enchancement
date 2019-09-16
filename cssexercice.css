@@ -41,3 +41,17 @@ q
    border-left: 3px solid #b32d00;
    padding-left: 30px;
    }
+
+.citations {
+    font-style: italic;
+}
+
+.citations-vill {
+    font-style: italic;
+    border-left: 3px solid darkolivegreen;
+}
+
+.citations-ferm {
+    font-style: italic;
+    border-left: 3px solid darkorange;
+}
