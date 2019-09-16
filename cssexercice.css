@@ -55,3 +55,7 @@ q
     font-style: italic;
     border-left: 3px solid darkorange;
 }
+
+h2 {
+    background-color: yellow;
+}
