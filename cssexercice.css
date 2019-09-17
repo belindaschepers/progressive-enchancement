@@ -79,5 +79,22 @@ h2 {
 }
 
 .up {
-    list-style-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-2.15/master/Parcours/01-Prairie/5.HTML-CSS/progressive-enhancement/bien.png?token=ANEUZK2EK4EOB76E2RKKAQS5RDNFE);
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-2.15/master/Parcours/01-Prairie/5.HTML-CSS/progressive-enhancement/bien.png?token=ANEUZK2EK4EOB76E2RKKAQS5RDNFE);
+    background-repeat: no-repeat;
+    background-position: 350px;
+    background-size: 20px;
+}
+
+.down {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-2.15/master/Parcours/01-Prairie/5.HTML-CSS/progressive-enhancement/mal.png?token=ANEUZK7YOQFI6PZGMHHV65K5RHGD2);
+    background-repeat: no-repeat;
+    background-position: 350px;
+    background-size: 20px;
+}
+
+.cat { 
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-2.15/master/Parcours/01-Prairie/5.HTML-CSS/progressive-enhancement/chat.png?token=ANEUZK7N4YGYJ4DMR6AORQK5RHGNQ);
+    background-repeat: no-repeat;
+    background-position: 400px;
+    background-size: 20px;
 }
