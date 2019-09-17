@@ -102,3 +102,8 @@ h2 {
 .firstp {
     font-weight: bold;
 }
+
+img {
+    float: inherit;
+    margin: 30px;
+}
