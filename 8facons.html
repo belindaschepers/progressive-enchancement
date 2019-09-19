@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="facons.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle&display=swap" rel="stylesheet"> 
   </head>
 <body>
 
 <header>
     <h1>8 façons simples d’améliorer la typographie dans vos designs</h1>
 
-    <h2>Par <a class="name" href="http://www.aisleone.net/about/" hreflang="en">Antonio Carusone</a></h2>
+    <h2>Par <a class="name" href="http://www.aisleone.net/about/" hreflang="en" target="_blank">Antonio Carusone</a></h2>
 
     <h3>Cet article a été écrit pour publication dans Smashing Magazine le 3 avril 2009. Je le reproduis ici pour vous être agréable.</h3>
 </header>       
@@ -40,7 +41,8 @@
 
         <p>L 'interlignage est l 'espace entre les lignes du corps de texte qui joue un rôle important dans sa lisibilité. Des lignes correctement espacées permettent au lecteur de mieux cerner la fonte et améliorent l 'apparence globale du texte. L 'interlignage altère aussi la couleur typographique, qui est la densité ou la tonalité d 'une composition.
 
-        Plusieurs facteurs impactent l 'interlignage: police, taille, graisse, casse, justification, intermot de la fonte, etc. Plus la justification est longue, plus l 'interlignage devient nécessaire. À l 'inverse, plus la taille de la fonte augmente, plus l 'interlignage peut être réduit. Une bonne règle est de déterminer un interlignage de 2 à 5 points plus grand que la taille de la fonte, selon la police. Si vous avez une fonte de 12pt, un interlignage de 15 à 16pt devrait bien fonctionner sur le Web.<img src="http://www.pompage.net/IMG/jpg/interlignage.jpg"></p>
+        Plusieurs facteurs impactent l 'interlignage: police, taille, graisse, casse, justification, intermot de la fonte, etc. Plus la justification est longue, plus l 'interlignage devient nécessaire. À l 'inverse, plus la taille de la fonte augmente, plus l 'interlignage peut être réduit. Une bonne règle est de déterminer un interlignage de 2 à 5 points plus grand que la taille de la fonte, selon la police. Si vous avez une fonte de 12pt, un interlignage de 15 à 16pt devrait bien fonctionner sur le Web.</p>
+        <p><img src="http://www.pompage.net/IMG/jpg/interlignage.jpg" alt="interlignage"></p>
 
         <p>Obtenir le bon espacement demande un peu de finesse, mais voici un exemple de ce à quoi le code pourrait ressembler:</p>
         
@@ -54,7 +56,7 @@
         <p class="ptitles"><strong>Ponctuation flottante</strong></P>
 
         <p>Placez les guillemets dans la marge du corps de texte. En ignorant cela, un guillemet aligné avec le texte interrompra la marge gauche et perturbera le rythme du lecteur. Placer les guillemets à l 'extérieur permet de conserver l 'alignement à gauche intact et équilibré, améliorant ainsi la lisibilité.</p>
-        <p><img src="http://www.pompage.net/IMG/jpg/guillemets.jpg"></p>
+        <p><img src="http://www.pompage.net/IMG/jpg/guillemets.jpg" alt="guillemets"></p>
 
         <p>Ce résultat est obtenu très facilement avec CSS en utilisant l 'élément blockquote:</p>
         
@@ -69,7 +71,7 @@
         <p class="ptitles"><strong>Rythme vertical</strong></p>
 
         <p>Une grille de référence est fondamentale pour obtenir un rythme typographique cohérent sur une page. Elle permet au lecteur de suivre facilement le flux du texte, ce qui par la même augmente la lisibilité. Un rythme continu dans la dimension verticale maintient tout le texte sur une grille cohérente, afin que la proportion et l 'équilibre soient conservés dans toute la page, quels que soient la taille de la fonte, l 'interlignage ou la justification.</p>
-        <p><img src="http://www.pompage.net/IMG/jpg/rythme-vertical.jpg"></p>
+        <p><img src="http://www.pompage.net/IMG/jpg/rythme-vertical.jpg" alt="rythme vertical"></p>
 
         <p>Pour conserver un rythme vertical en CSS il faut que l 'espacement entre les éléments et l 'interlignage soient égaux à la taille de la grille de référence. Par exemple, disons que vous utilisez une grille de référence de 15px, ce qui signifie qu 'il y a 15px entre chaque ligne de base. L 'interlignage serait de 15px et l 'espace entre chaque paragraphe serait également de 15px. Voici un exemple:</p>
         
@@ -88,7 +90,7 @@
         <p class="ptitles"><strong>Veuves et Orphelines</strong></p>
 
         <p>Une veuve est une ligne courte ou un mot unique à la fin d 'un paragraphe. Un orphelin est un mot ou une ligne courte au début ou à la fin d 'une colonne séparée du reste du paragraphe. Les veuves et les orphelines créent des drapeaux inélégants, interrompent l 'œil du lecteur et affectent la lisibilité. Ils peuvent être évités en ajustant la taille de la fonte, l 'interlignage, la justification, l 'intermots, l 'interlettrage ou en entrant manuellement des sauts de ligne.</p>
-        <p><img src="http://www.pompage.net/IMG/jpg/veuves-orphelins.jpg"></p>
+        <p><img src="http://www.pompage.net/IMG/jpg/veuves-orphelins.jpg" alt="orphelins"></p>
 
         <p>Malheureusement, il n 'existe pas de moyen facile pour empêcher les veuves et orphelines typographiques avec CSS. Une façon de les supprimer a été mentionnée précédemment, mais il existe également un plugin jQuery nommé <a href="http://davecardwell.co.uk/javascript/jquery/plugins/jquery-widont/" hreflang="en" lang="en">jQWidon't</a> qui place un espace insécable entre les deux derniers mots d 'un élément.
 
@@ -97,7 +99,7 @@
         <p class="ptitles"><strong>Emphase</strong></p>
 
         <p>Mettre l 'emphase sur un mot sans interrompre le lecteur est important. L 'italique est généralement considéré comme étant la forme idéale d 'emphase. D 'autres formes d 'emphase communes sont : gras, les capitales, les petites capitales, la taille de la fonte, la couleur, le soulignement ou une police de caractères différente. Essayez de vous limiter à une emphase unique, quelle qu 'elle soit. Les combinaisons comme capitales-gras-italique sont perturbantes et ont l 'air gauche.</p>
-        <p><img src="http://www.pompage.net/IMG/jpg/emphase.jpg"></p>
+        <p><img src="http://www.pompage.net/IMG/jpg/emphase.jpg" alt="emphase"></p>
 
         <p>Voici quelques manières différentes de créer une emphase en CSS:</p>
         
@@ -120,7 +122,7 @@
         <p class="ptitles"><strong>Échelle</strong></p>
 
         <p>Composez toujours à partir d 'une échelle, que ce soit l 'échelle traditionnelle développée au 16ème siècle de laquelle nous sommes tous familiers, ou une que vous créez vous-même. Une échelle est importante parce qu 'elle établit une hiérarchie typographique qui améliore la lisibilité et crée une harmonie et cohérence à l 'intérieur du texte.</p>
-        <p><img src="http://www.pompage.net/IMG/jpg/echelle.jpg"></p>
+        <p><img src="http://www.pompage.net/IMG/jpg/echelle.jpg" alt="echelle"></p>
 
         <p>Voici un exemple d 'échelle typographique définie en CSS:</p>
         
@@ -159,54 +161,56 @@
 
         
             
-                <p><a href="http://www.markboulton.co.uk/journal/comments/five_simple_steps_to_better_typography/" hreflang="en">Five Simple Steps to Better Typography</a>, Mark Boulton</p>
+                <p><a href="http://www.markboulton.co.uk/journal/comments/five_simple_steps_to_better_typography/" hreflang="en" target="_blank">Five Simple Steps to Better Typography</a>, Mark Boulton</p>
             
 
             
-                <p><a href="http://www.markboulton.co.uk/journal/comments/incremental_leading/" hreflang="en">Incremental Leading</a>, Mark Boulton</p>
+                <p><a href="http://www.markboulton.co.uk/journal/comments/incremental_leading/" hreflang="en" target="_blank">Incremental Leading</a>, Mark Boulton</p>
             
 
             
-                <p><a href="http://24ways.org/2006/compose-to-a-vertical-rhythm" hreflang="en">Compose to a Vertical Rhythm</a>, Richard Rutter — 24 Ways</p>
+                <p><a href="http://24ways.org/2006/compose-to-a-vertical-rhythm" hreflang="en" target="_blank">Compose to a Vertical Rhythm</a>, Richard Rutter — 24 Ways</p>
             
 
             
-                <p><a href="http://www.alistapart.com/articles/settingtypeontheweb" hreflang="en">Setting Type on the Web to a Baseline Grid</a>, Wilson Minor — A List Apart</p>
+                <p><a href="http://www.alistapart.com/articles/settingtypeontheweb" hreflang="en" target="_blank">Setting Type on the Web to a Baseline Grid</a>, Wilson Minor — A List Apart</p>
             
 
             
-                <p><a href="http://dev.opera.com/articles/view/setting-web-type-to-a-baseline-grid/" hreflang="en">Setting Web Type to a Baseline Grid</a>, Craig Grannell — Opera</p>
+                <p><a href="http://dev.opera.com/articles/view/setting-web-type-to-a-baseline-grid/" hreflang="en" target="_blank">Setting Web Type to a Baseline Grid</a>, Craig Grannell — Opera</p>
             
 
             
-                <p><a href="http://webtypography.net/" hreflang="en">The Elements of Typographic Style Applied to the Web</a>, Robert Bringhurst</p>
+                <p><a href="http://webtypography.net/" hreflang="en" target="_blank">The Elements of Typographic Style Applied to the Web</a>, Robert Bringhurst</p>
             
 
             
-                <p><a href="http://www.alistapart.com/articles/howtosizetextinCSS" hreflang="en">How to Size Text in CSS</a>, Richard Rutter — A List Apart</p>
+                <p><a href="http://www.alistapart.com/articles/howtosizetextinCSS" hreflang="en" target="_blank">How to Size Text in CSS</a>, Richard Rutter — A List Apart</p>
             
 
             
-                <p><a href="http://topfunky.com/baseline-rhythm-calculator/" hreflang="en">Baseline Rhythm Calculator</a>, Geoffrey Grosenbach</p>
+                <p><a href="http://topfunky.com/baseline-rhythm-calculator/" hreflang="en" target="_blank">Baseline Rhythm Calculator</a>, Geoffrey Grosenbach</p>
             
 
             
-                <p><a href="http://www.amazon.com/Detail-Typography-Jost-Hochuli/dp/0907259340" hreflang="en">Detail In Typography</a>, Jost Hochuli</p>
+                <p><a href="http://www.amazon.com/Detail-Typography-Jost-Hochuli/dp/0907259340" hreflang="en" target="blank">Detail In Typography</a>, Jost Hochuli</p>
             
 
             
-                <p><a href="http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881791326" hreflang="en">The Elements of Typographic Style</a>, Robert Bringhurst</p>
+                <p><a href="http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881791326" hreflang="en" target="_blank">The Elements of Typographic Style</a>, Robert Bringhurst</p>
             
 
             
-                <p><a href="http://www.amazon.com/Thinking-Type-Critical-Designers-Students/dp/1568984480" hreflang="en">Thinking with Type</a>, Ellen Lupton</p>
+                <p><a href="http://www.amazon.com/Thinking-Type-Critical-Designers-Students/dp/1568984480" hreflang="en" target="_blank">Thinking with Type</a>, Ellen Lupton</p>
             
 
             
-                <p><a href="http://www.amazon.com/Systems-Graphic-Systeme-Visuele-Gestaltung/dp/3721201450" hreflang="en">Grid Systems in Graphic Design</a>, Josef Müller-Brockmann</p>
+                <p><a href="http://www.amazon.com/Systems-Graphic-Systeme-Visuele-Gestaltung/dp/3721201450" hreflang="en" target="_blank">Grid Systems in Graphic Design</a>, Josef Müller-Brockmann</p>
             
         
 ----
-source: http://www.pompage.net/traduction/8-facons-simples-d-ameliorer-la-typographie-dans-vos
+<footer>
+    <p class="source">source: <a href="http://www.pompage.net/traduction/8-facons-simples-d-ameliorer-la-typographie-dans-vos" target="_blank">http://www.pompage.net/traduction/8-facons-simples-d-ameliorer-la-typographie-dans-vos</a></p>
+</footer>
 </body>
 </html>
