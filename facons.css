@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 15px;
+    padding: 20px;
+    font-family: 'Turret Road', cursive;
+}
+
+header {
+    padding: 30px;
+    background-color: #030d19;
+    color: white;
+}
+
+.name {
+    color: white;
+    text-decoration: none;
+}
+
+.ptitles {
+    font-style: italic;
+    color: #030d19;
+}
+
+p {
+    margin: 50px;
+}
+
+.codes {
+    text-align: center;
+}
+
+.intro {
+    font-style: italic;
+}
