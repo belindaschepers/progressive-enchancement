@@ -1,0 +1,26 @@
+h1 {
+    border: 3px solid;
+    border-radius: 10px;
+    border-style: none;
+    display: inline-block;
+    background-color: black;
+    color: white
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.ptitle {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.intro {
+    font-family: 'News Cycle', sans-serif;
+}
+
+.notions {
+    text-decoration: underline;
+}
