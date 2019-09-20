@@ -12,9 +12,14 @@ header {
     padding: 20px;
 }
 
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .ptitle {
     font-style: italic;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .intro {
@@ -23,4 +28,27 @@ header {
 
 .notions {
     text-decoration: underline;
+}
+
+.monospace {
+    padding: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.question {
+    width:20px;
+    height:30px;
+    position: relative;
+    left: 300px;
+    bottom: 40px;
+}
+
+.police {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
