@@ -20,6 +20,7 @@ body {
     font-style: italic;
     font-weight: bold;
     font-size: 20px;
+    color: #1a1f32;
 }
 
 .intro {
@@ -52,3 +53,23 @@ body {
     margin-right: auto;
     width: 30%;
 }
+
+blockquote {
+    border-left: 3px solid #1a1f32;
+}
+
+a {
+    text-decoration: underline;
+    color: #1a1f32;
+  }
+  a:visited {
+    color: #303f9f;
+  }
+  a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #08121a;
+  }
+
+  .source {
+      font-size: 15px;
+  }
